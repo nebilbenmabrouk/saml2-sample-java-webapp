@@ -77,9 +77,9 @@ gretty {
     httpsEnabled = true
     httpsPort = 9443
     httpPort = 8083
-    sslKeyStorePath = '/etc/cas/thekeystore'
-    sslKeyStorePassword = 'changeit'
-    sslTrustStorePath = '/etc/cas/thekeystore'
-    sslKeyStorePassword = 'changeit'
+    sslKeyStorePath = 'src/main/resources/security/keystore'
+    sslKeyStorePassword = 'activeeon'
+    sslTrustStorePath = 'src/main/resources/security/keystore'
+    sslKeyStorePassword = 'activeeon'
 }
 
